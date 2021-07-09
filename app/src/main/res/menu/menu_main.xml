@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.superweather.weather.MainActivity">
+
+    <item
+        android:id="@+id/action_openmenu"
+        android:orderInCategory="1"
+        android:title="@string/geolocator"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="always"
+
+        >
+        <menu>
+    <item
+    android:id="@+id/action_geo"
+    android:orderInCategory="1"
+    android:title="@string/geolocator"
+        android:icon="@drawable/geolocation"
+        app:showAsAction="always"
+        />
+<!--app:showAsAction="always|withText"
+        android:showAsAction="always|withText"-->
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="2"
+        android:title="@string/cleartxtbox"
+        android:icon="@drawable/clear"
+        app:showAsAction="always"
+       />
+    </menu>
+    </item>
+</menu>

@@ -1,0 +1,58 @@
+body{
+margin: 0;
+background-color: #B2C4D6;
+}
+
+
+input[type=search],input[type=button]{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+
+#searchForm{
+
+margin: 20px;
+}
+
+#loading,#results{
+
+    display: none;
+}
+
+
+#loading{
+text-align: center;
+}
+footer {
+
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+
+}
+
+#results p {
+    text-align: center;
+    margin: 0;
+}
+
+#city {
+    color: #000077;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#temperature {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    margin: 15px;
+}
+
+@media (orientation: landscape) {
+
+}

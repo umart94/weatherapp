@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>Super Weather</title>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<!-- user scalable no means no screen zoom , yes means zoom-->
+
+<link rel=stylesheet href="style.css">
+<section id="searchForm">
+    <input type=search id=query
+           placeholder="Enter the city name">
+
+    <input type=button id=getWeatherButton value="Get Weather">
+    <label><input type=radio name=unit value=f id=unitF>F</label>
+    <label><input type=radio name=unit value=c id=unitC>C</label>
+
+</section>
+
+
+
+
+<section id="loading">
+    <img src="images/load.gif">
+</section>
+<section id="results">
+    <p id="city">New ork</p>
+    <p id="description">Sunny</p>
+    <p id="temperature">50 F</p>
+    <p id="humidity">Humidity: 40%</p>
+</section>
+<footer>
+    <a href="javascript:location.reload()">Reload (DEBUG)</a>
+
+</footer>
+
+<script src="weather.js"></script>
+
+
